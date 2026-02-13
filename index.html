@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moses Panjaitan | Cybersecurity Expert & Pentester</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body data-theme="dark">
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-content">
+            <i class="fas fa-shield-alt loader-icon"></i>
+            <span>Initializing Secure Connection...</span>
+        </div>
+    </div>
+
+    <!-- Particles Background -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="cut1.jpg" alt="Moses Panjaitan" class="logo-icon">
+                    <span class="logo-text">Moses Panjaitan</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#blog" class="nav-link"><i class="fas fa-blog"></i> Blog</a></li>
+                    <li><a href="#portfolio" class="nav-link"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+                <div class="header-actions">
+                    <button id="theme-toggle" class="theme-btn">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <img src="images/hero-bg.jpg" alt="Cyber Matrix" class="hero-bg">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-text">CREST Certified | OSCP | 5+ Years Experience</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">I'm </span>
+                <span class="gradient-text">Moses Panjaitan,</span>
+                <span class="title-line"> Cybersecurity Expert</span>
+            </h1>
+            <p class="hero-subtitle">Pentesting | Red Team | Bug Bounty | Security Research</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="500">0</div>
+                    <span>Vulnerabilities Found</span>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50">0</div>
+                    <span>Companies Secured</span>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="100">0</div>
+                    <span>Blog Posts</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary btn-large">
+                    <i class="fas fa-rocket"></i> Hire Me
+                </a>
+                <a href="#blog" class="btn btn-secondary btn-large">
+                    <i class="fas fa-book"></i> Read Blog
+                </a>
+            </div>
+            <div class="hero-scroll">
+                <a href="#about" class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+        <section id="home" class="hero">
+            <div class="hero-conten">   
+        <div class="hero-profile">
+            <div class="profile-image">
+                <img src="cut1.jpg" alt="Moses Panjaitan">
+                <div class="profile-status">
+                    <div class="status-online"></div>
+                    <span>Online</span>
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get to know</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-bio">
+                    <h3>Security Researcher & Ethical Hacker</h3>
+                    <p>Specialist in advanced penetration testing, red team operations, and vulnerability research. OSCP certified with 5+ years securing enterprises across APAC region.</p>
+                    <div class="certifications">
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>OSCP</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>CEH</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>PNPT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4><i class="fab fa-python"></i> Languages</h4>
+                        <div class="skill-bars">
+                            <div class="skill-bar">
+                                <span>Python</span>
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                            <div class="skill-bar">
+                                <span>Bash</span>
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                            <div class="skill-bar">
+                                <span>Java</span>
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4><i class="fas fa-tools"></i> Tools</h4>
+                        <div class="skill-tags">
+                            <span><img src="images/python-icon.png" alt=""> Metasploit</span>
+                            <span><img src="images/metasploit.png" alt=""> Burp Suite</span>
+                            <span>Nmap</span>
+                            <span>Wireshark</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Knowledge Base</span>
+                <h2 class="section-title">Latest Articles</h2>
+            </div>
+            <div class="blog-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="pentest">Pentest</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="malware">Malware</button>
+            </div>
+            <div class="blog-grid" id="blogGrid">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Work</span>
+                <h2 class="section-title">Portfolio</h2>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="images/blog1.jpg" alt="Bank Security">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Banking Sector Pentest</h3>
+                        <p>Full infrastructure assessment for tier-1 bank</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Red Team</span>
+                            <span class="tag">AD</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- More portfolio items -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Let's Talk</span>
+                <h2 class="section-title">Contact</h2>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:mitsukishimizu1337@gmail.com">mitsukishimizu1337@gmail.com</a>   
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+62895-0561-4279">+62895-0561-4279</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Medan+Indonesia" target=https://maps.app.goo.gl/AcPZpfY9UkZK6GSA6"_blank">Medan, Indonesia</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Tell me about your project..." rows="6" required></textarea>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="images/favicon.ico" alt="">
+                        <span>Moses Panjaitan</span>
+                    </div>
+                        <p>Securing the digital frontier, one vulnerability at a time.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fas fa-rss"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2014 Moses Panjaitan. All rights reserved | OSCP Certified Pentester</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
